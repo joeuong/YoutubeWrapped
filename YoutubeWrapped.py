@@ -4,18 +4,24 @@ def YtMusicCsvConvert():
     import csv
 
     use_dir = os.getcwd()
-    path = os.path.join(use_dir, 'watch-history.json')               #default json file from Google
-    tar_path = os.path.join(use_dir, '2021YTWrapped_1.csv')   #name file whatever you would like
+    #default json file from Google
+    path = os.path.join(use_dir, 'watch-history.json')     
+    #name file whatever you would like
+    tar_path = os.path.join(use_dir, '2021YTWrapped_1.csv')         
 
-    with open(path, 'r') as df:                                                        #Load data to python 
+    #Load data to python 
+    with open(path, 'r') as df:                                                        
         obj = json.loads(df.read())
 
     with open(tar_path,'w', newline ='') as outfile:
-        music = csv.writer(outfile, delimiter='^')                          #lots of commas in artist names, so I used a character that I didn't see ^
+        #lots of commas in artist names, so I used a character that I didn't see ^
+        music = csv.writer(outfile, delimiter='^')                          
         music.writerow(['songtitle','date','artist','month','hour'])
         for i in range(len(obj)):
+            # Only running if Year is 2021
+            # Cleaning titles and artist names
             if obj[i]['header'] == 'YouTube Music' and obj[i]['time'][0:4] == '2021':        
-                a = obj[i]['title'][8:]                                                      #cleaning titles and artist names
+                a = obj[i]['title'][8:]                                                     
                 a = a.replace(',',' ')
                 b = 'no artist'
                 c = obj[i]['time'][0:10]
@@ -27,7 +33,7 @@ def YtMusicCsvConvert():
                     b = b.replace(',',' ')
                 except KeyError:
                     continue
-                music.writerow([a,b,c,d,e])                                         #write to CSV
+                music.writerow([a,b,c,d,e])                                         
 
 if __name__ == '__main__':
     YtMusicCsvConvert()
