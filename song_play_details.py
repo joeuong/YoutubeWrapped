@@ -3,7 +3,6 @@ def SongHistory():
     import os
     import csv
     import datetime
-    import csv
     import requests
 
     use_dir = os.getcwd()
