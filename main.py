@@ -1,7 +1,7 @@
-from YoutubeWrapped import YtMusicCsvConvert
-from itunes_api_v2 import itunesApiFromInfo
+from song_play_details import SongHistory
 
-YtMusicCsvConvert()
+
+SongHistory()
 
 # Fixing in an later update:
     # You will need to update the CSV before uncommenting the next function call
