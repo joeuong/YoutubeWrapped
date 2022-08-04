@@ -1,13 +1,16 @@
 # musicstats
 Music Stats from iTunes API and YouTube Music data
 
-1. Grab Youtube Music stats from Google Takeout in JSON
-## https://takeout.google.com/settings/takeout
-### Click DESELECT ALL
+## 1. Grab Youtube Music stats from Google Takeout in JSON
+### https://takeout.google.com/settings/takeout
+### Click "Deselct All"
 ###	Scroll to the bottom
 ### Click the checkbox next to "YouTube and YouTube Music"
 ### Click "Multiple Formats"
 ### Change "History" to "JSON" and Click "OK"
+### (optional) Click "All YouTube Data Included" and select only History
+### Click "Next Step"
+### Click "Create Export"
+### You will receive an email when the export is ready
 
-2. Run code to compile YT data into lists to call iTunes API for other stats on music
-3. Returns CSV file "outfile" with data such as song title, artist, album, and run-time
+iTunes API is inconsistent. Code is available, but not maintained by me at this time. 
