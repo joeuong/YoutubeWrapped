@@ -1,4 +1,6 @@
-# musicstats
+# YouTube Music Stats
+# We can't let the Spotify users have all the fun! 
+
 Music Stats from YouTube Music data via Google Takeout
 
 Download YoutubeWrapped.py (and main.py if you want) 
