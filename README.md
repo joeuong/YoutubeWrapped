@@ -1,7 +1,7 @@
 # musicstats
 Music Stats from YouTube Music data via Google Takeout
 
-## 1. Grab Youtube Music stats from Google Takeout in JSON
+## 1. Grab Youtube Music data via Google Takeout in JSON format
 https://takeout.google.com/settings/takeout
 - Click "Deselct All"
 - Scroll to the bottom
