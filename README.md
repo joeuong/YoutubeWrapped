@@ -1,11 +1,9 @@
 # YouTube Music Stats
-## We can't let the Spotify users have all the fun! 
+We can't let the Spotify users have all the fun! 
 The great thing about this is that stats can be pulled at any time since Google has so much data!
-
 Music Stats from YouTube Music data via Google Takeout
 
 # Download YoutubeWrapped.py (and main.py if you want) 
-
 No exteral libraries are needed for this to run
 
 ## 1. Grab Youtube Music data via Google Takeout in JSON format
