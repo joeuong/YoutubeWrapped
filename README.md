@@ -1,5 +1,7 @@
 # musicstats
 Music Stats from YouTube Music data via Google Takeout
+Download YoutubeWrapped.py (and main.py if you want) 
+No exteral libraries are needed for this to run
 
 ## 1. Grab Youtube Music data via Google Takeout in JSON format
 https://takeout.google.com/settings/takeout
