@@ -1,5 +1,6 @@
 # YouTube Music Stats
-# We can't let the Spotify users have all the fun! 
+## We can't let the Spotify users have all the fun! 
+## The great thing about this is that stats can be pulled at any time since Google has so much data!
 
 Music Stats from YouTube Music data via Google Takeout
 
