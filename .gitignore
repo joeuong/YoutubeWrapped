@@ -2,4 +2,7 @@
 *.db
 *.json
 *json_data*
-*DS_Store
+**/.DS_Store
+**/._.DS_Store
+._.DS_Store
+.DS_Store
