@@ -1,0 +1,4 @@
+*pycache*
+*.db
+*.json
+*json_data*
