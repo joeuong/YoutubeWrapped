@@ -11,7 +11,7 @@ def YtMusicCsvConvert():
 
 # Update with your filepath:
 # MacOS Path    
-    path = os.path.join(use_dir, '/Users/josephuong/Library/CloudStorage/Dropbox/Home-VSCode/Apps/YT Wrapped/2024/2024-03-30_watch-history.json') 
+    path = os.path.join(use_dir, '/Users/josephuong/Library/CloudStorage/Dropbox/Home-VSCode/Apps/YT Wrapped/2024/2024-08-08_watch-history.json') 
 
 # Windows Path
     # path = r'C:\Users\juong42\Dropbox (Personal)\Desktop Python\YT Wrapped\2022\2022-11-23_watch-history.json'
@@ -28,7 +28,7 @@ def YtMusicCsvConvert():
     months = []
     # hours = []
 
-    time_frame = '2024-01'
+    time_frame = '2024-04'
 
 # cleaning titles and artist names
     for i in range(len(obj)):
