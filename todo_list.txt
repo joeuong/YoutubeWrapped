@@ -1,2 +1,1 @@
-update all views to have TRIM
 update VIEWS in DB 
