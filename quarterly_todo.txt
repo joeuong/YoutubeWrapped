@@ -1,4 +1,2 @@
 CHECK LAST_DATE.SQL TO GET THE LAST DATE USED
-
-Run add_to_db_google_only
-Run listen_add USING LAST_DATE
+Run _music_quarterly_run.py
